@@ -193,7 +193,7 @@ body{
     display: grid;
     grid-template-columns:repeat(4,25%);
     grid-gap: 20px 5px;
-    /* overflow-x:hidden; */
+    overflow-x:hidden;
 }
 
 .video{
@@ -223,6 +223,9 @@ body{
     margin-right: 10px;
 }
 
+.info{
+    width: calc(100%-46px);
+}
 .title{
     width: 100%;
     height: 40px;
@@ -233,4 +236,8 @@ body{
     font-size: 14px;
     margin: 2px 0;
     color: #979797;
+}
+
+.video-player-container{
+    margin-top: 70px;
 }

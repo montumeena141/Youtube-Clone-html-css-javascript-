@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Video Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="img/logo.PNG" class="logo" alt="ytlogo">
+        <div class="search-box">
+           <input type="search" class="search-bar" placeholder="search"> 
+           <button class="search-btn"><img src="img/search.PNG" alt="search button"></button>
+        </div>
+
+        <div class="user-options">
+            <img src="img/video.PNG" class="icon" alt="">
+            <img src="img/grid.PNG" class="icon" alt="">
+            <img src="img/bell.PNG" class="icon" alt="">
+            <div class="user-dp">
+                <img src="img/PHOTO 1.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+    <!-- video player -->
+    <div class="video-play-container">
+        <div id="video-player"></div>
+    </div>
+    <script src="video.js" type="module"></script>
+</body>
+</html>
+
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/VJov5QWEKE4?si=7QA0T7JsZjKMVOnf" frameborder="0" ></iframe> -->
